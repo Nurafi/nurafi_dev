@@ -103,7 +103,7 @@
                         <h3>Images</h3>
     
                         <div class="img_wrapper">
-                            <img src="../img/img1.png" alt="img1" width="256" height="256">
+                            <img class="clickable_img" src="../img/img1.png" alt="img1" width="256" height="256">
                             <div class="img_sub">Image subline</div>
                         </div>
     
@@ -113,6 +113,15 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
+        
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+          
+            <img class="modal-content" id="modal_img">
+            <div id="modal_caption"></div>
+        </div>
+
+        <script src="../src/script.js"></script>
     </body>
 </html>

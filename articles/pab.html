@@ -31,17 +31,17 @@
                         <div id="chapter_basic" class="anchor"></div>
                         <h3>Game</h3>
                         <div class="img_wrapper">
-                            <img src="../img/pab/pab_001.png" alt="img1" width="512" height="320">
+                            <img class="clickable_img" src="../img/pab/pab_001.png" alt="Main Menu" width="512" height="320">
                             <div class="img_sub">Main Menu</div>
                         </div>
 
                         <div class="img_wrapper">
-                            <img src="../img/pab/pab_002.png" alt="img1" width="512" height="320">
+                            <img class="clickable_img" src="../img/pab/pab_002.png" alt="Options" width="512" height="320">
                             <div class="img_sub">Options</div>
                         </div>
 
                         <div class="img_wrapper">
-                            <img src="../img/pab/pab_003.png" alt="img1" width="512" height="320">
+                            <img class="clickable_img" src="../img/pab/pab_003.png" alt="Ingame" width="512" height="320">
                             <div class="img_sub">Ingame</div>
                         </div>
     
@@ -51,6 +51,15 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
+        
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+          
+            <img class="modal-content" id="modal_img">
+            <div id="modal_caption"></div>
+        </div>
+
+        <script src="../src/script.js"></script>
     </body>
 </html>
